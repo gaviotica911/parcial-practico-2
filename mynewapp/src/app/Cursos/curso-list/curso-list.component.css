@@ -4,7 +4,20 @@
     align-items: center;
     
     padding: 30px;
-    flex:1;
+   
 
     
+}
+.selected-curso{
+    flex: 1;
+    order:1;
+    
+}
+#h{
+    flex: 1; 
+
+    order:2;
+    
+  
+
 }

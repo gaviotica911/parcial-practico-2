@@ -1,8 +1,7 @@
-.container-fluid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
- 
-    flex:1;
+
+h5{
+    color:green
+}
+h6{
+    color:red
 }

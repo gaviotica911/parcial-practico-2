@@ -1,5 +1,5 @@
 
-<div class="container-fluid">
+
 
 
   <div class="card" style="width: 18rem;">
@@ -7,10 +7,10 @@
     <div class="card-body">
       <h5 class="card-title">{{curso.title}}</h5>
       <p class="card-text">{{curso.description}}</p>
-      <p class="verde" *ngIf="curso.offers_certificate" class="card-text" >Si ofrece certificado</p>
-      <p class="rojo" *ngIf="!curso.offers_certificate" class="card-text">No ofrece certificado</p>
+      <h5 class="verde" *ngIf="curso.offers_certificate" class="card-text" >Si ofrece certificado</h5>
+      <h6 class="rojo" *ngIf="!curso.offers_certificate" class="card-text">No ofrece certificado</h6>
      
     </div>
   </div>
 
-</div>
+

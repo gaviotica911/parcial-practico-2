@@ -3,12 +3,9 @@
   <div>
    
 
-    <div class="selected-curso rounded" *ngIf="selected">
-      <app-curso-detail [curso]="selectedCurso"></app-curso-detail>
-    </div>
-
+    
    
-    <div class="container-fluid">
+    <div class="container-fluid" id="h">
       <div class="col-6">
         <table class="table">
           <thead>
@@ -48,6 +45,10 @@
         <p>Los cursos {{certificados}} ofrecen certificados!!!</p>
       </div>
     </div>
+    <div class="selected-curso" *ngIf="selected">
+      <app-curso-detail [curso]="selectedCurso"></app-curso-detail>
+    </div>
+
 
 
     
